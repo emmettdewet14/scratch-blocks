@@ -39,18 +39,19 @@ Blockly.Msg.CONTROL_REPEAT = 'repeat %1';
 Blockly.Msg.CONTROL_IF = 'if %1 then';
 Blockly.Msg.CONTROL_ELSE = 'else';
 Blockly.Msg.CONTROL_STOP = 'stop';
-Blockly.Msg.CONTROL_STOP_ALL = 'all';
-Blockly.Msg.CONTROL_STOP_THIS = 'this script';
-Blockly.Msg.CONTROL_STOP_OTHER = 'other scripts in sprite';
+Blockly.Msg.CONTROL_STOP_ALL = 'everything';
+Blockly.Msg.CONTROL_STOP_THIS = 'current script';
+Blockly.Msg.CONTROL_STOP_OTHER = 'other scripts in this sprite';
 Blockly.Msg.CONTROL_WAIT = 'wait %1 seconds';
-Blockly.Msg.CONTROL_WAITUNTIL = 'wait until %1';
+Blockly.Msg.CONTROL_WAITUNTIL = 'await %1';
 Blockly.Msg.CONTROL_REPEATUNTIL = 'repeat until %1';
 Blockly.Msg.CONTROL_WHILE = 'while %1';
 Blockly.Msg.CONTROL_FOREACH = 'for each %1 in %2';
-Blockly.Msg.CONTROL_STARTASCLONE = 'when I start as a clone';
+Blockly.Msg.CONTROL_STARTASCLONE = 'when clone is made';
 Blockly.Msg.CONTROL_CREATECLONEOF = 'create clone of %1';
-Blockly.Msg.CONTROL_CREATECLONEOF_MYSELF = 'myself';
+Blockly.Msg.CONTROL_CREATECLONEOF_MYSELF = 'this sprite';
 Blockly.Msg.CONTROL_DELETETHISCLONE = 'delete this clone';
+// unused. not changing it
 Blockly.Msg.CONTROL_COUNTER = 'counter';
 Blockly.Msg.CONTROL_INCRCOUNTER = 'increment counter';
 Blockly.Msg.CONTROL_CLEARCOUNTER = 'clear counter';
@@ -77,7 +78,7 @@ Blockly.Msg.DATA_INDEX_LAST = 'last';
 Blockly.Msg.DATA_INDEX_RANDOM = 'random';
 
 // Event blocks
-Blockly.Msg.EVENT_WHENFLAGCLICKED = 'when %1 clicked';
+Blockly.Msg.EVENT_WHENFLAGCLICKED = 'when the %1 gets touched by the mouse pointer';
 Blockly.Msg.EVENT_WHENTHISSPRITECLICKED = 'when this sprite clicked';
 Blockly.Msg.EVENT_WHENSTAGECLICKED = 'when stage clicked';
 Blockly.Msg.EVENT_WHENTOUCHINGOBJECT = 'when this sprite touches %1';
@@ -89,11 +90,11 @@ Blockly.Msg.EVENT_WHENGREATERTHAN_LOUDNESS = 'loudness';
 Blockly.Msg.EVENT_BROADCAST = 'broadcast %1';
 Blockly.Msg.EVENT_BROADCASTANDWAIT = 'broadcast %1 and wait';
 Blockly.Msg.EVENT_WHENKEYPRESSED = 'when %1 key pressed';
-Blockly.Msg.EVENT_WHENKEYPRESSED_SPACE = 'space';
-Blockly.Msg.EVENT_WHENKEYPRESSED_LEFT = 'left arrow';
-Blockly.Msg.EVENT_WHENKEYPRESSED_RIGHT = 'right arrow';
-Blockly.Msg.EVENT_WHENKEYPRESSED_DOWN = 'down arrow';
-Blockly.Msg.EVENT_WHENKEYPRESSED_UP = 'up arrow';
+Blockly.Msg.EVENT_WHENKEYPRESSED_SPACE = ' ';
+Blockly.Msg.EVENT_WHENKEYPRESSED_LEFT = 'a arrow';
+Blockly.Msg.EVENT_WHENKEYPRESSED_RIGHT = 'd arrow';
+Blockly.Msg.EVENT_WHENKEYPRESSED_DOWN = 's arrow';
+Blockly.Msg.EVENT_WHENKEYPRESSED_UP = 'w arrow';
 Blockly.Msg.EVENT_WHENKEYPRESSED_ANY = 'any';
 
 // Looks blocks
@@ -141,7 +142,7 @@ Blockly.Msg.LOOKS_PREVIOUSBACKDROP = 'previous backdrop';
 Blockly.Msg.LOOKS_RANDOMBACKDROP = 'random backdrop';
 
 // Motion blocks
-Blockly.Msg.MOTION_MOVESTEPS = 'move %1 steps';
+Blockly.Msg.MOTION_MOVESTEPS = 'move in current direction by %1 pixeks';
 Blockly.Msg.MOTION_TURNLEFT = 'turn %1 %2 degrees';
 Blockly.Msg.MOTION_TURNRIGHT = 'turn %1 %2 degrees';
 Blockly.Msg.MOTION_POINTINDIRECTION = 'point in direction %1';
